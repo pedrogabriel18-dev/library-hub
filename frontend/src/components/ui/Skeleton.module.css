@@ -1,0 +1,57 @@
+/* ── Skeleton ──────────────────────────────────────────────────────────────── */
+
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--bg-hover) 0%,
+    var(--bg-active) 50%,
+    var(--bg-hover) 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite ease-in-out;
+  border-radius: var(--radius-sm);
+}
+
+.text {
+  height: 1rem;
+  width: 100%;
+  margin-bottom: var(--sp-2);
+}
+
+.title {
+  height: 1.25rem;
+  width: 70%;
+  margin-bottom: var(--sp-3);
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-full);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+}
+
+.cover {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  border-radius: var(--radius-md);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
+  gap: var(--sp-5);
+  width: 100%;
+}
+
+.tableRow {
+  height: 48px;
+  width: 100%;
+  margin-bottom: var(--sp-2);
+  border-radius: var(--radius-sm);
+}

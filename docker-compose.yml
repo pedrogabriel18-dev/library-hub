@@ -1,0 +1,42 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# docker-compose.yml — LibraryHub
+# Para uso em desenvolvimento local com Docker
+# ─────────────────────────────────────────────────────────────────────────────
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: libraryhub
+    restart: unless-stopped
+    ports:
+      - "3333:3333"
+    environment:
+      NODE_ENV: production
+      PORT: 3333
+      DATABASE_URL: file:/app/data/sqlite.db
+      STORAGE_ROOT: /app
+      JWT_SECRET: ${JWT_SECRET}
+      JWT_EXPIRES_IN: ${JWT_EXPIRES_IN:-7d}
+      FRONTEND_URL: ${FRONTEND_URL:-http://localhost:3333}
+    volumes:
+      # Banco de dados SQLite persistente
+      - sqlite_data:/app/data
+      # Arquivos de PDFs e TCCs
+      - storage_books:/app/storage/books
+      - storage_tccs:/app/storage/tccs
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:3333/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+
+volumes:
+  sqlite_data:
+    name: acervo_sqlite_data
+  storage_books:
+    name: acervo_storage_books
+  storage_tccs:
+    name: acervo_storage_tccs

@@ -1,0 +1,308 @@
+// LibraryHub — Schema do Banco de Dados
+// Versão: 2.0
+// ORM: Prisma | Banco: SQLite
+
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "linux-musl-openssl-3.0.x", "linux-musl-arm64-openssl-3.0.x", "linux-musl-arm64-openssl-1.1.x"]
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// ─────────────────────────────────────────────
+// USUÁRIOS E PERFIS
+// ─────────────────────────────────────────────
+
+model User {
+  id                String    @id @default(uuid())
+  login             String    @unique
+  passwordHash      String
+  name              String
+  role              String    @default("STUDENT")
+  avatarId          String?
+  bannerType        String    @default("avatar")
+  bannerValue       String?
+  turma             String?
+  curso             String?
+  mustChangePassword Boolean  @default(true)
+  isActive          Boolean   @default(true)
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+
+  // Relações
+  favorites         Favorite[]
+  readingProgress   ReadingProgress[]
+  readingHistory    ReadingHistory[]
+  reviews           Review[]
+  downloads         Download[]
+  logs              Log[]
+  notifications     Notification[]
+
+  @@map("users")
+}
+
+// ─────────────────────────────────────────────
+// LIVROS
+// ─────────────────────────────────────────────
+
+model Book {
+  id            String    @id @default(uuid())
+  title         String
+  slug          String    @unique
+  synopsis      String?
+  coverImage    String?
+  filePath      String
+  publishedYear Int?
+  pageCount     Int?
+  isPublished   Boolean   @default(false)
+  downloadCount Int       @default(0)
+  viewCount     Int       @default(0)
+  avgRating     Float     @default(0)
+  ratingCount   Int       @default(0)
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  // Relações
+  categoryId    String
+  category      Category  @relation(fields: [categoryId], references: [id])
+  authors       BookAuthor[]
+  favorites     Favorite[]
+  readingProgress ReadingProgress[]
+  readingHistory  ReadingHistory[]
+  reviews         Review[]
+  downloads       Download[]
+
+  @@index([categoryId])
+  @@index([isPublished, createdAt])
+  @@index([isPublished, viewCount])
+
+  @@map("books")
+}
+
+model Category {
+  id        String  @id @default(uuid())
+  name      String  @unique
+  slug      String  @unique
+  iconPath  String?
+  books     Book[]
+  tccs      TCC[]
+
+  @@map("categories")
+}
+
+model Author {
+  id        String      @id @default(uuid())
+  name      String
+  books     BookAuthor[]
+  tccs      TCC[]
+
+  @@map("authors")
+}
+
+model BookAuthor {
+  bookId    String
+  authorId  String
+  book      Book    @relation(fields: [bookId], references: [id], onDelete: Cascade)
+  author    Author  @relation(fields: [authorId], references: [id], onDelete: Cascade)
+
+  @@id([bookId, authorId])
+  @@map("book_authors")
+}
+
+// ─────────────────────────────────────────────
+// TCCs
+// ─────────────────────────────────────────────
+
+model TCC {
+  id            String    @id @default(uuid())
+  title         String
+  slug          String    @unique
+  abstract      String?
+  filePath      String    // URL do documento (formato /preview)
+  coverImage    String?   // Miniatura gerada (caminho local ou URL)
+  keywords      String?   // Palavras-chave em JSON serializado
+  year          Int
+  course        String?
+  isPublished   Boolean   @default(false)
+  viewCount     Int       @default(0)
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  // Relações
+  categoryId    String?
+  category      Category? @relation(fields: [categoryId], references: [id])
+  authorId      String
+  author        Author    @relation(fields: [authorId], references: [id])
+  advisorId     String?
+  advisorUser   AdvisorProfile? @relation(fields: [advisorId], references: [id])
+
+  @@index([categoryId])
+  @@index([authorId])
+  @@index([advisorId])
+  @@index([isPublished, year])
+  @@index([isPublished, viewCount])
+  @@index([isPublished, createdAt])
+
+  @@map("tccs")
+}
+
+model AdvisorProfile {
+  id      String  @id @default(uuid())
+  userId  String  @unique
+  name    String
+  tccs    TCC[]
+
+  @@map("advisor_profiles")
+}
+
+// ─────────────────────────────────────────────
+// INTERAÇÕES DO USUÁRIO
+// ─────────────────────────────────────────────
+
+model Favorite {
+  id        String    @id @default(uuid())
+  userId    String
+  bookId    String
+  createdAt DateTime  @default(now())
+
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  book      Book      @relation(fields: [bookId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, bookId])
+  @@map("favorites")
+}
+
+model ReadingProgress {
+  id          String    @id @default(uuid())
+  userId      String
+  bookId      String
+  currentPage Int       @default(1)
+  totalPages  Int?
+  isFinished  Boolean   @default(false)
+  lastReadAt  DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  book        Book      @relation(fields: [bookId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, bookId])
+  @@map("reading_progress")
+}
+
+model ReadingHistory {
+  id          String    @id @default(uuid())
+  userId      String
+  bookId      String
+  accessedAt  DateTime  @default(now())
+
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  book        Book      @relation(fields: [bookId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([bookId])
+  @@index([accessedAt])
+
+  @@map("reading_history")
+}
+
+model Download {
+  id          String    @id @default(uuid())
+  userId      String
+  bookId      String
+  downloadedAt DateTime @default(now())
+
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  book        Book      @relation(fields: [bookId], references: [id], onDelete: Cascade)
+
+  @@map("downloads")
+}
+
+// ─────────────────────────────────────────────
+// AVALIAÇÕES
+// ─────────────────────────────────────────────
+
+model Review {
+  id              String        @id @default(uuid())
+  userId          String
+  bookId          String
+  rating          Int           // 1–5
+  comment         String?
+  status          String        @default("PENDING")
+  rejectionReason String?
+  reviewedBy      String?       // ID do moderador
+  reviewedAt      DateTime?
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+
+  user        User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  book        Book          @relation(fields: [bookId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, bookId])
+  @@index([status, createdAt])
+  @@map("reviews")
+}
+
+// ─────────────────────────────────────────────
+// LOGS
+// ─────────────────────────────────────────────
+
+model Log {
+  id          String    @id @default(uuid())
+  userId      String?
+  action      String
+  description String?
+  ipAddress   String?
+  metadata    String?   // JSON serializado
+  createdAt   DateTime  @default(now())
+
+  user        User?     @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([userId])
+  @@index([createdAt])
+  @@map("logs")
+}
+
+// ─────────────────────────────────────────────
+// NOTIFICAÇÕES
+// ─────────────────────────────────────────────
+
+model Notification {
+  id          String    @id @default(uuid())
+  userId      String
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  type        String
+  title       String
+  message     String
+  link        String?
+  read        Boolean   @default(false)
+  createdAt   DateTime  @default(now())
+  bookId      String?
+  tccId       String?
+
+  @@index([userId, read])
+  @@map("notifications")
+}
+
+// ─────────────────────────────────────────────
+// EVENT FEED (POP-UPS)
+// ─────────────────────────────────────────────
+
+model EventFeed {
+  id          String    @id @default(uuid())
+  type        String
+  category    String
+  title       String
+  description String
+  image       String?
+  url         String?
+  createdAt   DateTime  @default(now())
+  priority    Int       @default(1)
+  expiresAt   DateTime?
+
+  @@index([priority, createdAt])
+  @@map("event_feed")
+}
+

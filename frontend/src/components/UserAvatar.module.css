@@ -1,0 +1,68 @@
+/* ═══════════════════════════════════════════════════════════════
+   UserAvatar — CSS Module
+   ═══════════════════════════════════════════════════════════════ */
+
+.avatarWrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  user-select: none;
+}
+
+.avatarContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: var(--radius-full);
+  overflow: hidden;
+  background: var(--bg-surface);
+  box-shadow: var(--shadow-sm);
+  border-style: solid;
+  transition: border-color var(--transition-fast);
+}
+
+.avatarImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.avatarHoverOverlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity var(--transition-fast);
+  border-radius: var(--radius-full);
+}
+
+.avatarWrapper.clickable {
+  cursor: pointer;
+}
+
+.avatarWrapper.clickable:hover .avatarContainer {
+  filter: brightness(0.95);
+}
+
+.avatarWrapper.clickable:hover .avatarHoverOverlay {
+  opacity: 1;
+}
+
+.cameraIcon {
+  font-size: 1.25rem;
+}
+
+.statusDot {
+  position: absolute;
+  border-style: solid;
+  border-radius: var(--radius-full);
+  box-shadow: var(--shadow-sm);
+  z-index: 10;
+  transition: background-color var(--transition-fast), border-color var(--transition-fast);
+}

@@ -1,0 +1,45 @@
+{
+  "name": "LibraryHub — Plataforma de Gestão de Acervo e Leitura Digital",
+  "short_name": "LibraryHub",
+  "description": "Plataforma Open Source de Gestão de Acervos Educacionais, Livros Digitais e Trabalhos Acadêmicos.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "categories": [
+    "education",
+    "books",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "/assets/icones-biblioteca-sem-fundo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icones-biblioteca-sem-fundo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Catálogo de Livros",
+      "short_name": "Livros",
+      "description": "Acesse o acervo completo de livros digitais",
+      "url": "/livros",
+      "icons": [{ "src": "/assets/icones-biblioteca-sem-fundo.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Trabalhos de Conclusão",
+      "short_name": "TCCs",
+      "description": "Consulte os trabalhos acadêmicos",
+      "url": "/tccs",
+      "icons": [{ "src": "/assets/icones-biblioteca-sem-fundo.png", "sizes": "192x192" }]
+    }
+  ]
+}

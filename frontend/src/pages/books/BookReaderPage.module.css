@@ -1,0 +1,298 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   BookReaderPage — Immersive reader (Fixed dark theme)
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.reader {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #0d1117;
+  outline: none;
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+}
+
+/* ── Progress Bar ───────────────────────────────────────────────────────── */
+
+.progressBar {
+  height: 3px;
+  background: rgba(255, 255, 255, 0.08);
+  flex-shrink: 0;
+  position: relative;
+}
+
+.progressFill {
+  height: 100%;
+  background: var(--color-blue-600);
+  transition: width 0.4s ease;
+  border-radius: 0 2px 2px 0;
+}
+
+/* ── Topbar ─────────────────────────────────────────────────────────────── */
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+  padding: 0 var(--sp-5);
+  background: rgba(13, 17, 23, 0.98);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  flex-shrink: 0;
+  gap: var(--sp-4);
+  flex-wrap: wrap;
+  backdrop-filter: blur(8px);
+}
+
+.backBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+  transition: color var(--transition-fast);
+  flex-shrink: 0;
+  max-width: 240px;
+  text-decoration: none;
+}
+
+.backBtn:hover {
+  color: white;
+}
+
+.bookTitle {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: var(--text-sm);
+  font-weight: var(--weight-bold);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* ── Controls ───────────────────────────────────────────────────────────── */
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-1);
+}
+
+.iconBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-md);
+  color: rgba(255, 255, 255, 0.55);
+  transition: background var(--transition-fast), color var(--transition-fast);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.iconBtn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.zoomLevel {
+  font-size: var(--text-xs);
+  color: rgba(255, 255, 255, 0.45);
+  width: 40px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+/* ── Pagination ─────────────────────────────────────────────────────────── */
+
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-1);
+}
+
+.pageBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-md);
+  color: rgba(255, 255, 255, 0.55);
+  transition: background var(--transition-fast), color var(--transition-fast);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.pageBtn:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.pageBtn:disabled {
+  opacity: 0.25;
+  cursor: not-allowed;
+}
+
+.pageInfo {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  font-size: var(--text-sm);
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.pageInput {
+  width: 48px;
+  padding: var(--sp-1) var(--sp-2);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.08);
+  color: white;
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  text-align: center;
+  outline: none;
+  transition: border-color var(--transition-fast), background var(--transition-fast);
+}
+
+.pageInput:focus {
+  border-color: var(--color-blue-500);
+  background: rgba(59, 130, 246, 0.1);
+}
+
+.pageInput::-webkit-outer-spin-button,
+.pageInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.pageInput[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* ── Viewport ───────────────────────────────────────────────────────────── */
+
+.viewport {
+  flex: 1;
+  overflow: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--sp-10) var(--sp-16);
+  background: #0d1117;
+}
+
+.loadingState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sp-4);
+  color: rgba(255, 255, 255, 0.45);
+  margin: auto;
+  font-size: var(--text-body);
+}
+
+.spinner {
+  width: 36px;
+  height: 36px;
+  border: 3px solid rgba(255, 255, 255, 0.08);
+  border-top-color: var(--color-blue-500);
+  border-radius: 50%;
+  animation: spin 0.75s linear infinite;
+}
+
+.canvasWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.canvas {
+  box-shadow: 0 16px 64px rgba(0, 0, 0, 0.7);
+  border-radius: var(--radius-sm);
+  max-width: 100%;
+}
+
+/* ── Side Navigation ────────────────────────────────────────────────────── */
+
+.sideNav {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.45);
+  border-radius: var(--radius-md);
+  transition: all var(--transition-fast);
+  z-index: 10;
+  cursor: pointer;
+}
+
+.sideNav:hover:not(:disabled) {
+  background: rgba(59, 130, 246, 0.3);
+  border-color: rgba(96, 165, 250, 0.3);
+  color: white;
+}
+
+.sideNav:disabled {
+  opacity: 0.15;
+  cursor: not-allowed;
+}
+
+.sideNavLeft {
+  left: var(--sp-3);
+}
+.sideNavRight {
+  right: var(--sp-3);
+}
+
+/* ── Error State ────────────────────────────────────────────────────────── */
+
+.errorState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #0d1117;
+  color: rgba(255, 255, 255, 0.65);
+  gap: var(--sp-6);
+  text-align: center;
+  padding: var(--sp-8);
+}
+
+.backLink {
+  color: var(--color-blue-400);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.backLink:hover {
+  color: var(--color-blue-300);
+}
+
+/* ── Responsive ───────────────────────────────────────────────────────────── */
+
+@media (max-width: 640px) {
+  .viewport {
+    padding: var(--sp-4) var(--sp-2);
+  }
+  .sideNav {
+    display: none;
+  }
+  .bookTitle {
+    display: none;
+  }
+  .controls .zoomLevel {
+    display: none;
+  }
+}

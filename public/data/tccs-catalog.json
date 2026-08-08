@@ -1,0 +1,36 @@
+[
+  {
+    "titulo": "Artificial Intelligence in Education",
+    "autores": [
+      "Alex Morgan",
+      "Jordan Lee"
+    ],
+    "orientador": "Prof. David Miller",
+    "ano": 2026,
+    "curso": "Computer Science",
+    "turma": "Class 3A",
+    "keywords": [
+      "Artificial Intelligence",
+      "Education",
+      "Machine Learning"
+    ],
+    "coverFile": "artificial-intelligence-in-education.jpg"
+  },
+  {
+    "titulo": "Digital Library Platform Architecture",
+    "autores": [
+      "Emma Watson",
+      "Lucas Taylor"
+    ],
+    "orientador": "Prof. David Miller",
+    "ano": 2026,
+    "curso": "Computer Science",
+    "turma": "Class 3A",
+    "keywords": [
+      "Digital Library",
+      "Web Development",
+      "Open Source"
+    ],
+    "coverFile": "digital-library-platform.jpg"
+  }
+]

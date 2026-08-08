@@ -1,0 +1,631 @@
+[
+  {
+    "titulo": "Dom Casmurro",
+    "autor": "Machado de Assis",
+    "categoria": "Literatura Brasileira",
+    "ano": 1899,
+    "descricao": "Obra clássica da categoria Literatura Brasileira escrita por Machado de Assis.",
+    "keywords": [
+      "Machado de Assis",
+      "Literatura Brasileira",
+      "Dom",
+      "Casmurro"
+    ],
+    "coverFile": "dom-casmurro.jpg"
+  },
+  {
+    "titulo": "O Alienista",
+    "autor": "Machado de Assis",
+    "categoria": "Literatura Brasileira",
+    "ano": 1882,
+    "descricao": "Obra clássica da categoria Literatura Brasileira escrita por Machado de Assis.",
+    "keywords": [
+      "Machado de Assis",
+      "Literatura Brasileira",
+      "O",
+      "Alienista"
+    ],
+    "coverFile": "o-alienista.jpg"
+  },
+  {
+    "titulo": "O Cortiço",
+    "autor": "Aluísio Azevedo",
+    "categoria": "Literatura Brasileira",
+    "ano": 1890,
+    "descricao": "Obra clássica da categoria Literatura Brasileira escrita por Aluísio Azevedo.",
+    "keywords": [
+      "Aluísio Azevedo",
+      "Literatura Brasileira",
+      "O",
+      "Cortiço"
+    ],
+    "coverFile": "o-cortico.jpg"
+  },
+  {
+    "titulo": "Memórias Póstumas de Brás Cubas",
+    "autor": "Machado de Assis",
+    "categoria": "Literatura Brasileira",
+    "ano": 1881,
+    "descricao": "Obra clássica da categoria Literatura Brasileira escrita por Machado de Assis.",
+    "keywords": [
+      "Machado de Assis",
+      "Literatura Brasileira",
+      "Memórias",
+      "Póstumas",
+      "de",
+      "Brás",
+      "Cubas"
+    ],
+    "coverFile": "memorias-postumas-de-bras-cubas.jpg"
+  },
+  {
+    "titulo": "Iracema",
+    "autor": "José de Alencar",
+    "categoria": "Literatura Brasileira",
+    "ano": 1865,
+    "descricao": "Obra clássica da categoria Literatura Brasileira escrita por José de Alencar.",
+    "keywords": [
+      "José de Alencar",
+      "Literatura Brasileira",
+      "Iracema"
+    ],
+    "coverFile": "iracema.jpg"
+  },
+  {
+    "titulo": "Senhora",
+    "autor": "José de Alencar",
+    "categoria": "Literatura Brasileira",
+    "ano": 1875,
+    "descricao": "Obra clássica da categoria Literatura Brasileira escrita por José de Alencar.",
+    "keywords": [
+      "José de Alencar",
+      "Literatura Brasileira",
+      "Senhora"
+    ],
+    "coverFile": "senhora.jpg"
+  },
+  {
+    "titulo": "Helena",
+    "autor": "Machado de Assis",
+    "categoria": "Literatura Brasileira",
+    "ano": 1876,
+    "descricao": "Obra clássica da categoria Literatura Brasileira escrita por Machado de Assis.",
+    "keywords": [
+      "Machado de Assis",
+      "Literatura Brasileira",
+      "Helena"
+    ],
+    "coverFile": "helena.jpg"
+  },
+  {
+    "titulo": "Quincas Borba",
+    "autor": "Machado de Assis",
+    "categoria": "Literatura Brasileira",
+    "ano": 1891,
+    "descricao": "Obra clássica da categoria Literatura Brasileira escrita por Machado de Assis.",
+    "keywords": [
+      "Machado de Assis",
+      "Literatura Brasileira",
+      "Quincas",
+      "Borba"
+    ],
+    "coverFile": "quincas-borba.jpg"
+  },
+  {
+    "titulo": "Vidas Secas",
+    "autor": "Graciliano Ramos",
+    "categoria": "Literatura Brasileira",
+    "ano": 1938,
+    "descricao": "Obra clássica da categoria Literatura Brasileira escrita por Graciliano Ramos.",
+    "keywords": [
+      "Graciliano Ramos",
+      "Literatura Brasileira",
+      "Vidas",
+      "Secas"
+    ],
+    "coverFile": "vidas-secas.jpg"
+  },
+  {
+    "titulo": "Triste Fim de Policarpo Quaresma",
+    "autor": "Lima Barreto",
+    "categoria": "Literatura Brasileira",
+    "ano": 1911,
+    "descricao": "Obra clássica da categoria Literatura Brasileira escrita por Lima Barreto.",
+    "keywords": [
+      "Lima Barreto",
+      "Literatura Brasileira",
+      "Triste",
+      "Fim",
+      "de",
+      "Policarpo",
+      "Quaresma"
+    ],
+    "coverFile": "triste-fim-de-policarpo-quaresma.jpg"
+  },
+  {
+    "titulo": "A Arte da Guerra",
+    "autor": "Sun Tzu",
+    "categoria": "Literatura Internacional",
+    "ano": 500,
+    "descricao": "Obra clássica da categoria Literatura Internacional escrita por Sun Tzu.",
+    "keywords": [
+      "Sun Tzu",
+      "Literatura Internacional",
+      "A",
+      "Arte",
+      "da",
+      "Guerra"
+    ],
+    "coverFile": "a-arte-da-guerra.jpg"
+  },
+  {
+    "titulo": "Revolução dos Bichos",
+    "autor": "George Orwell",
+    "categoria": "Literatura Internacional",
+    "ano": 1945,
+    "descricao": "Obra clássica da categoria Literatura Internacional escrita por George Orwell.",
+    "keywords": [
+      "George Orwell",
+      "Literatura Internacional",
+      "Revolução",
+      "dos",
+      "Bichos"
+    ],
+    "coverFile": "revolucao-dos-bichos.jpg"
+  },
+  {
+    "titulo": "A Metamorfose",
+    "autor": "Franz Kafka",
+    "categoria": "Literatura Internacional",
+    "ano": 1915,
+    "descricao": "Obra clássica da categoria Literatura Internacional escrita por Franz Kafka.",
+    "keywords": [
+      "Franz Kafka",
+      "Literatura Internacional",
+      "A",
+      "Metamorfose"
+    ],
+    "coverFile": "a-metamorfose.jpg"
+  },
+  {
+    "titulo": "O Idiota",
+    "autor": "Fiódor Dostoiévski",
+    "categoria": "Literatura Internacional",
+    "ano": 1869,
+    "descricao": "Obra clássica da categoria Literatura Internacional escrita por Fiódor Dostoiévski.",
+    "keywords": [
+      "Fiódor Dostoiévski",
+      "Literatura Internacional",
+      "O",
+      "Idiota"
+    ],
+    "coverFile": "o-idiota.jpg"
+  },
+  {
+    "titulo": "Odisseia",
+    "autor": "Homero",
+    "categoria": "Literatura Internacional",
+    "ano": 800,
+    "descricao": "Obra clássica da categoria Literatura Internacional escrita por Homero.",
+    "keywords": [
+      "Homero",
+      "Literatura Internacional",
+      "Odisseia"
+    ],
+    "coverFile": "odisseia.jpg"
+  },
+  {
+    "titulo": "Noites Brancas",
+    "autor": "Fiódor Dostoiévski",
+    "categoria": "Literatura Internacional",
+    "ano": 1848,
+    "descricao": "Obra clássica da categoria Literatura Internacional escrita por Fiódor Dostoiévski.",
+    "keywords": [
+      "Fiódor Dostoiévski",
+      "Literatura Internacional",
+      "Noites",
+      "Brancas"
+    ],
+    "coverFile": "noites-brancas.jpg"
+  },
+  {
+    "titulo": "1984",
+    "autor": "George Orwell",
+    "categoria": "Literatura Internacional",
+    "ano": 1949,
+    "descricao": "Obra clássica da categoria Literatura Internacional escrita por George Orwell.",
+    "keywords": [
+      "George Orwell",
+      "Literatura Internacional",
+      "1984"
+    ],
+    "coverFile": "1984.jpg"
+  },
+  {
+    "titulo": "A Divina Comédia",
+    "autor": "Dante Alighieri",
+    "categoria": "Literatura Internacional",
+    "ano": 1320,
+    "descricao": "Obra clássica da categoria Literatura Internacional escrita por Dante Alighieri.",
+    "keywords": [
+      "Dante Alighieri",
+      "Literatura Internacional",
+      "A",
+      "Divina",
+      "Comédia"
+    ],
+    "coverFile": "a-divina-comedia.jpg"
+  },
+  {
+    "titulo": "Hamlet",
+    "autor": "William Shakespeare",
+    "categoria": "Literatura Internacional",
+    "ano": 1603,
+    "descricao": "Obra clássica da categoria Literatura Internacional escrita por William Shakespeare.",
+    "keywords": [
+      "William Shakespeare",
+      "Literatura Internacional",
+      "Hamlet"
+    ],
+    "coverFile": "hamlet.jpg"
+  },
+  {
+    "titulo": "O Jardim Secreto",
+    "autor": "Frances Hodgson Burnett",
+    "categoria": "Literatura Internacional",
+    "ano": 1911,
+    "descricao": "Obra clássica da categoria Literatura Internacional escrita por Frances Hodgson Burnett.",
+    "keywords": [
+      "Frances Hodgson Burnett",
+      "Literatura Internacional",
+      "O",
+      "Jardim",
+      "Secreto"
+    ],
+    "coverFile": "o-jardim-secreto.jpg"
+  },
+  {
+    "titulo": "Noções de Lógica",
+    "autor": "L. A. Nogueira",
+    "categoria": "Tecnologia e Informática",
+    "ano": 2015,
+    "descricao": "Obra clássica da categoria Tecnologia e Informática escrita por L. A. Nogueira.",
+    "keywords": [
+      "L. A. Nogueira",
+      "Tecnologia e Informática",
+      "Noções",
+      "de",
+      "Lógica"
+    ],
+    "coverFile": "nocoes-de-logica.jpg"
+  },
+  {
+    "titulo": "Bitcoin para Programadores",
+    "autor": "Satoshi Nakamoto",
+    "categoria": "Tecnologia e Informática",
+    "ano": 2008,
+    "descricao": "Obra clássica da categoria Tecnologia e Informática escrita por Satoshi Nakamoto.",
+    "keywords": [
+      "Satoshi Nakamoto",
+      "Tecnologia e Informática",
+      "Bitcoin",
+      "para",
+      "Programadores"
+    ],
+    "coverFile": "bitcoin-para-programadores.jpg"
+  },
+  {
+    "titulo": "Robótica e Processos Formativos",
+    "autor": "José Silva",
+    "categoria": "Tecnologia e Informática",
+    "ano": 2018,
+    "descricao": "Obra clássica da categoria Tecnologia e Informática escrita por José Silva.",
+    "keywords": [
+      "José Silva",
+      "Tecnologia e Informática",
+      "Robótica",
+      "e",
+      "Processos",
+      "Formativos"
+    ],
+    "coverFile": "robotica-e-processos-formativos.jpg"
+  },
+  {
+    "titulo": "Lógica de Programação para Iniciantes",
+    "autor": "Alan Turing",
+    "categoria": "Tecnologia e Informática",
+    "ano": 2020,
+    "descricao": "Obra clássica da categoria Tecnologia e Informática escrita por Alan Turing.",
+    "keywords": [
+      "Alan Turing",
+      "Tecnologia e Informática",
+      "Lógica",
+      "de",
+      "Programação",
+      "para",
+      "Iniciantes"
+    ],
+    "coverFile": "logica-de-programacao-para-iniciantes.jpg"
+  },
+  {
+    "titulo": "Cartilha de Segurança para Internet",
+    "autor": "CERT.br",
+    "categoria": "Tecnologia e Informática",
+    "ano": 2012,
+    "descricao": "Obra clássica da categoria Tecnologia e Informática escrita por CERT.br.",
+    "keywords": [
+      "CERT.br",
+      "Tecnologia e Informática",
+      "Cartilha",
+      "de",
+      "Segurança",
+      "para",
+      "Internet"
+    ],
+    "coverFile": "cartilha-de-seguranca-para-internet.jpg"
+  },
+  {
+    "titulo": "Introdução à Criptografia",
+    "autor": "Bruce Schneier",
+    "categoria": "Tecnologia e Informática",
+    "ano": 2019,
+    "descricao": "Obra clássica da categoria Tecnologia e Informática escrita por Bruce Schneier.",
+    "keywords": [
+      "Bruce Schneier",
+      "Tecnologia e Informática",
+      "Introdução",
+      "à",
+      "Criptografia"
+    ],
+    "coverFile": "introducao-a-criptografia.jpg"
+  },
+  {
+    "titulo": "Java Básico e Orientação a Objetos",
+    "autor": "James Gosling",
+    "categoria": "Tecnologia e Informática",
+    "ano": 2016,
+    "descricao": "Obra clássica da categoria Tecnologia e Informática escrita por James Gosling.",
+    "keywords": [
+      "James Gosling",
+      "Tecnologia e Informática",
+      "Java",
+      "Básico",
+      "e",
+      "Orientação",
+      "a",
+      "Objetos"
+    ],
+    "coverFile": "java-basico-e-orientacao-a-objetos.jpg"
+  },
+  {
+    "titulo": "Guia 500 Comandos Linux",
+    "autor": "Linus Torvalds",
+    "categoria": "Tecnologia e Informática",
+    "ano": 2021,
+    "descricao": "Obra clássica da categoria Tecnologia e Informática escrita por Linus Torvalds.",
+    "keywords": [
+      "Linus Torvalds",
+      "Tecnologia e Informática",
+      "Guia",
+      "500",
+      "Comandos",
+      "Linux"
+    ],
+    "coverFile": "guia-500-comandos-linux.jpg"
+  },
+  {
+    "titulo": "Apostila Navegadores",
+    "autor": "Tim Berners-Lee",
+    "categoria": "Tecnologia e Informática",
+    "ano": 2015,
+    "descricao": "Obra clássica da categoria Tecnologia e Informática escrita por Tim Berners-Lee.",
+    "keywords": [
+      "Tim Berners-Lee",
+      "Tecnologia e Informática",
+      "Apostila",
+      "Navegadores"
+    ],
+    "coverFile": "apostila-navegadores.jpg"
+  },
+  {
+    "titulo": "Informática Avançada",
+    "autor": "Bill Gates",
+    "categoria": "Tecnologia e Informática",
+    "ano": 2017,
+    "descricao": "Obra clássica da categoria Tecnologia e Informática escrita por Bill Gates.",
+    "keywords": [
+      "Bill Gates",
+      "Tecnologia e Informática",
+      "Informática",
+      "Avançada"
+    ],
+    "coverFile": "informatica-avancada.jpg"
+  },
+  {
+    "titulo": "Zoologia Invertebrados",
+    "autor": "Charles Darwin",
+    "categoria": "Ciências",
+    "ano": 2011,
+    "descricao": "Obra clássica da categoria Ciências escrita por Charles Darwin.",
+    "keywords": [
+      "Charles Darwin",
+      "Ciências",
+      "Zoologia",
+      "Invertebrados"
+    ],
+    "coverFile": "zoologia-invertebrados.jpg"
+  },
+  {
+    "titulo": "Comportamento Felino",
+    "autor": "Konrad Lorenz",
+    "categoria": "Ciências",
+    "ano": 2014,
+    "descricao": "Obra clássica da categoria Ciências escrita por Konrad Lorenz.",
+    "keywords": [
+      "Konrad Lorenz",
+      "Ciências",
+      "Comportamento",
+      "Felino"
+    ],
+    "coverFile": "comportamento-felino.jpg"
+  },
+  {
+    "titulo": "Embriologia Humana",
+    "autor": "Ernst Haeckel",
+    "categoria": "Ciências",
+    "ano": 2013,
+    "descricao": "Obra clássica da categoria Ciências escrita por Ernst Haeckel.",
+    "keywords": [
+      "Ernst Haeckel",
+      "Ciências",
+      "Embriologia",
+      "Humana"
+    ],
+    "coverFile": "embriologia-humana.jpg"
+  },
+  {
+    "titulo": "Cinesiologia",
+    "autor": "René Descartes",
+    "categoria": "Ciências",
+    "ano": 2015,
+    "descricao": "Obra clássica da categoria Ciências escrita por René Descartes.",
+    "keywords": [
+      "René Descartes",
+      "Ciências",
+      "Cinesiologia"
+    ],
+    "coverFile": "cinesiologia.jpg"
+  },
+  {
+    "titulo": "Política Nacional da Mulher",
+    "autor": "Governo Federal",
+    "categoria": "Ciências",
+    "ano": 2013,
+    "descricao": "Obra clássica da categoria Ciências escrita por Governo Federal.",
+    "keywords": [
+      "Governo Federal",
+      "Ciências",
+      "Política",
+      "Nacional",
+      "da",
+      "Mulher"
+    ],
+    "coverFile": "politica-nacional-da-mulher.jpg"
+  },
+  {
+    "titulo": "Pequenos Vermes Invisíveis",
+    "autor": "Louis Pasteur",
+    "categoria": "Ciências",
+    "ano": 2016,
+    "descricao": "Obra clássica da categoria Ciências escrita por Louis Pasteur.",
+    "keywords": [
+      "Louis Pasteur",
+      "Ciências",
+      "Pequenos",
+      "Vermes",
+      "Invisíveis"
+    ],
+    "coverFile": "pequenos-vermes-invisiveis.jpg"
+  },
+  {
+    "titulo": "Princípios de Química",
+    "autor": "Peter Atkins",
+    "categoria": "Química",
+    "ano": 2001,
+    "descricao": "Obra clássica da categoria Química escrita por Peter Atkins.",
+    "keywords": [
+      "Peter Atkins",
+      "Química",
+      "Princípios",
+      "de",
+      "Química"
+    ],
+    "coverFile": "principios-de-quimica.jpg"
+  },
+  {
+    "titulo": "Geografia Física II",
+    "autor": "Alexander von Humboldt",
+    "categoria": "Geografia",
+    "ano": 2012,
+    "descricao": "Obra clássica da categoria Geografia escrita por Alexander von Humboldt.",
+    "keywords": [
+      "Alexander von Humboldt",
+      "Geografia",
+      "Geografia",
+      "Física",
+      "II"
+    ],
+    "coverFile": "geografia-fisica-ii.jpg"
+  },
+  {
+    "titulo": "Matemática Básica",
+    "autor": "Euclides",
+    "categoria": "Matemática",
+    "ano": 2010,
+    "descricao": "Obra clássica da categoria Matemática escrita por Euclides.",
+    "keywords": [
+      "Euclides",
+      "Matemática",
+      "Matemática",
+      "Básica"
+    ],
+    "coverFile": "matematica-basica.jpg"
+  },
+  {
+    "titulo": "Matemática Financeira",
+    "autor": "Luca Pacioli",
+    "categoria": "Matemática",
+    "ano": 2014,
+    "descricao": "Obra clássica da categoria Matemática escrita por Luca Pacioli.",
+    "keywords": [
+      "Luca Pacioli",
+      "Matemática",
+      "Matemática",
+      "Financeira"
+    ],
+    "coverFile": "matematica-financeira.jpg"
+  },
+  {
+    "titulo": "História da Matemática",
+    "autor": "Carl Boyer",
+    "categoria": "Matemática",
+    "ano": 2012,
+    "descricao": "Obra clássica da categoria Matemática escrita por Carl Boyer.",
+    "keywords": [
+      "Carl Boyer",
+      "Matemática",
+      "História",
+      "da",
+      "Matemática"
+    ],
+    "coverFile": "historia-da-matematica.jpg"
+  },
+  {
+    "titulo": "Construções Geométricas",
+    "autor": "Arquimedes",
+    "categoria": "Matemática",
+    "ano": 2013,
+    "descricao": "Obra clássica da categoria Matemática escrita por Arquimedes.",
+    "keywords": [
+      "Arquimedes",
+      "Matemática",
+      "Construções",
+      "Geométricas"
+    ],
+    "coverFile": "construcoes-geometricas.jpg"
+  },
+  {
+    "titulo": "Análise Matemática",
+    "autor": "Isaac Newton",
+    "categoria": "Matemática",
+    "ano": 2015,
+    "descricao": "Obra clássica da categoria Matemática escrita por Isaac Newton.",
+    "keywords": [
+      "Isaac Newton",
+      "Matemática",
+      "Análise",
+      "Matemática"
+    ],
+    "coverFile": "analise-matematica.jpg"
+  }
+]

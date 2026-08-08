@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 580" width="100%" height="100%">
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="580" fill="#f8fafc" />
+  
+  <!-- Decorative border -->
+  <rect x="15" y="15" width="370" height="550" rx="10" ry="10" fill="none" stroke="#1e3a8a" stroke-width="3" />
+  <rect x="20" y="20" width="360" height="540" rx="8" ry="8" fill="none" stroke="#e2e8f0" stroke-width="1" />
+
+  <!-- Badge TCC -->
+  <rect x="160" y="40" width="80" height="26" rx="5" fill="#1e3a8a" />
+  <text x="200" y="57" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="1.5">TCC</text>
+
+  <!-- Title Section -->
+  <text x="200" y="171" font-family="'Inter', 'Manrope', sans-serif" font-size="14" font-weight="700" fill="#1e3a8a" text-anchor="middle">ESTUDO ANALÍTICO DE TÉCNICAS</text>
+<text x="200" y="190" font-family="'Inter', 'Manrope', sans-serif" font-size="14" font-weight="700" fill="#1e3a8a" text-anchor="middle">DE APRENDIZADO DE MÁQUINA PARA</text>
+<text x="200" y="209" font-family="'Inter', 'Manrope', sans-serif" font-size="14" font-weight="700" fill="#1e3a8a" text-anchor="middle">PREDIÇÃO DE EVASÃO ESCOLAR</text>
+
+
+  <!-- Divider -->
+  <line x1="120" y1="280" x2="280" y2="280" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="4 4" />
+
+  <!-- Author Section -->
+  <text x="200" y="315" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#64748b" text-anchor="middle" letter-spacing="1">AUTOR(ES)</text>
+  <text x="200" y="335" font-family="'Inter', 'Manrope', sans-serif" font-size="14" font-weight="500" fill="#0f172a" text-anchor="middle">Gawain Strength</text>
+
+  <!-- Advisor Section -->
+  <text x="200" y="380" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#64748b" text-anchor="middle" letter-spacing="1">ORIENTADOR(A)</text>
+  <text x="200" y="400" font-family="'Inter', 'Manrope', sans-serif" font-size="13" font-weight="500" fill="#0f172a" text-anchor="middle">Prof. David Miller</text>
+
+  <!-- Course and Year Section -->
+  <text x="200" y="450" font-family="'Inter', 'Manrope', sans-serif" font-size="11" font-weight="400" fill="#475569" text-anchor="middle">ANO: 2025</text>
+  <text x="200" y="470" font-family="'Inter', 'Manrope', sans-serif" font-size="11" font-weight="500" fill="#475569" text-anchor="middle">Técnico em Informática</text>
+
+  <!-- Footer -->
+  <line x1="40" y1="520" x2="360" y2="520" stroke="#e2e8f0" stroke-width="1" />
+  <text x="200" y="542" font-family="'Inter', sans-serif" font-size="9" font-weight="600" fill="#2563eb" text-anchor="middle" letter-spacing="0.5">LibraryHub — Academic Repository</text>
+</svg>

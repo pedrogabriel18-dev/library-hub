@@ -1,0 +1,392 @@
+[
+  {
+    "id": "book-001",
+    "titulo": "Dom Casmurro",
+    "autor": "Machado de Assis",
+    "ano": 1899,
+    "categoria": "Literatura Brasileira",
+    "capa": "/covers/dom-casmurro.svg",
+    "url": "https://livraria-camara-leg.usrfiles.com/ugd/5ca0e9_77426ca451ec4f60b14af67f925f038e.pdf",
+    "sinopse": "Machado de Assis nos convida a desvendar o enigma de Capitu sob a otica obsessiva e enciumada de Bentinho, em uma das narrativas mais brilhantes da nossa literatura."
+  },
+  {
+    "id": "book-002",
+    "titulo": "O Alienista",
+    "autor": "Machado de Assis",
+    "ano": 1882,
+    "categoria": "Literatura Brasileira",
+    "capa": "/covers/o-alienista.svg",
+    "url": "https://archivepublicdomain.com/files/2025/02/O-Alienista.pdf?t=3b84b6a29f165a51b919b199d0866b81faca7939f2570c81fab9f6965dec0f2d"
+  },
+  {
+    "id": "book-003",
+    "titulo": "O Cortiço",
+    "autor": "Aluísio Azevedo",
+    "ano": 1890,
+    "categoria": "Literatura Brasileira",
+    "capa": "/covers/o-cortico.svg",
+    "url": "https://camara-leg-br.usrfiles.com/ugd/5ca0e9_4bd76b96516a40fba87370e6bcec72f8.pdf"
+  },
+  {
+    "id": "book-004",
+    "titulo": "Memórias Póstumas de Brás Cubas",
+    "autor": "Machado de Assis",
+    "ano": 1881,
+    "categoria": "Literatura Brasileira",
+    "capa": "/covers/memorias-postumas-de-bras-cubas.svg",
+    "url": "https://5ca0e999-de9a-47e0-9b77-7e3eeab0592c.usrfiles.com/ugd/5ca0e9_4f0243f83ea945ed98bfa7570d3b743c.pdf"
+  },
+  {
+    "id": "book-005",
+    "titulo": "Iracema",
+    "autor": "José de Alencar",
+    "ano": 1865,
+    "categoria": "Literatura Brasileira",
+    "capa": "/covers/iracema.svg",
+    "url": "https://domainpublic.wordpress.com/wp-content/uploads/2022/01/iracema.pdf"
+  },
+  {
+    "id": "book-006",
+    "titulo": "Senhora",
+    "autor": "José de Alencar",
+    "ano": 1875,
+    "categoria": "Literatura Brasileira",
+    "capa": "/covers/senhora.svg",
+    "url": "https://camara-leg-br.usrfiles.com/ugd/5ca0e9_a13ff30f4d8e43589fa37fdc2501e615.pdf"
+  },
+  {
+    "id": "book-007",
+    "titulo": "Helena",
+    "autor": "Machado de Assis",
+    "ano": 1876,
+    "categoria": "Literatura Brasileira",
+    "capa": "/covers/helena.svg",
+    "url": "https://5ca0e999-de9a-47e0-9b77-7e3eeab0592c.usrfiles.com/ugd/5ca0e9_cd94893554864514a4d847fc0981d55b.pdf"
+  },
+  {
+    "id": "book-008",
+    "titulo": "Quincas Borba",
+    "autor": "Machado de Assis",
+    "ano": 1891,
+    "categoria": "Literatura Brasileira",
+    "capa": "/covers/quincas-borba.svg",
+    "url": "https://mec.usrfiles.com/ugd/5ca0e9_42e47d68ce8e4b3ea844c5dec81a532b.pdf"
+  },
+  {
+    "id": "book-009",
+    "titulo": "Vidas Secas",
+    "autor": "Graciliano Ramos",
+    "ano": 1938,
+    "categoria": "Literatura Brasileira",
+    "capa": "/covers/vidas-secas.svg",
+    "url": "https://archivepublicdomain.com/files/2025/01/vidas-secas.pdf?t=7cec71bd33ec29fc09d9808b01fd33b96d95334237574bf616653fa2ed003c41"
+  },
+  {
+    "id": "book-010",
+    "titulo": "Triste Fim de Policarpo Quaresma",
+    "autor": "Lima Barreto",
+    "ano": 1911,
+    "categoria": "Literatura Brasileira",
+    "capa": "/covers/triste-fim-de-policarpo-quaresma.svg",
+    "url": "https://camara-gov-br.usrfiles.com/ugd/5ca0e9_ebda356b2f4742f3bf3325afd9e44363.pdf"
+  },
+  {
+    "id": "book-011",
+    "titulo": "A Arte da Guerra",
+    "autor": "Sun Tzu",
+    "ano": 500,
+    "categoria": "Literatura Internacional",
+    "capa": "/covers/a-arte-da-guerra.svg",
+    "url": "https://archivepublicdomain.com/files/2026/05/arte-da-guerra.pdf?t=6c75b8ba916a3479f4a2d826f920b42729a14587b3bd363dd990b61bba687f96"
+  },
+  {
+    "id": "book-012",
+    "titulo": "Revolução dos Bichos",
+    "autor": "George Orwell",
+    "ano": 1945,
+    "categoria": "Literatura Internacional",
+    "capa": "/covers/revolucao-dos-bichos.svg",
+    "url": "https://multimidia.gazetadopovo.com.br/media/info/2021/202110/bichos/revolucao-dos-bichos.pdf"
+  },
+  {
+    "id": "book-013",
+    "titulo": "A Metamorfose",
+    "autor": "Franz Kafka",
+    "ano": 1915,
+    "categoria": "Literatura Internacional",
+    "capa": "/covers/a-metamorfose.svg",
+    "url": "https://archivepublicdomain.com/files/2025/02/metamorfose.pdf?t=26bef3baee5862e38557d6de9e3edfb0b41e7f92c111c19061d74eb3b47b4548"
+  },
+  {
+    "id": "book-014",
+    "titulo": "O Idiota",
+    "autor": "Fiódor Dostoiévski",
+    "ano": 1869,
+    "categoria": "Literatura Internacional",
+    "capa": "/covers/o-idiota.svg",
+    "url": "https://archivepublicdomain.com/files/2026/06/o-idiota.pdf?t=e82020955d8cae2eb697377bd6b668939ba9937bdd7fc83be2d3ba38dfd740a3"
+  },
+  {
+    "id": "book-015",
+    "titulo": "Odisseia",
+    "autor": "Homero",
+    "ano": 800,
+    "categoria": "Literatura Internacional",
+    "capa": "/covers/odisseia.svg",
+    "url": "https://www.ebooksbrasil.org/adobeebook/odisseiap.pdf"
+  },
+  {
+    "id": "book-016",
+    "titulo": "Noites Brancas",
+    "autor": "Fiódor Dostoiévski",
+    "ano": 1848,
+    "categoria": "Literatura Internacional",
+    "capa": "/covers/noites-brancas.svg",
+    "url": "https://www.baixelivros.com.br/literatura-estrangeira/noites-brancas"
+  },
+  {
+    "id": "book-017",
+    "titulo": "1984",
+    "autor": "George Orwell",
+    "ano": 1949,
+    "categoria": "Literatura Internacional",
+    "capa": "/covers/1984.svg",
+    "url": "https://multimidia.gazetadopovo.com.br/media/info/2022/202209/1984/e-book-1984.pdf"
+  },
+  {
+    "id": "book-018",
+    "titulo": "A Divina Comédia",
+    "autor": "Dante Alighieri",
+    "ano": 1320,
+    "categoria": "Literatura Internacional",
+    "capa": "https://www.lpm.com.br/livros/imagens/a_divina_comedia_9788525433206_hd.jpg",
+    "url": "https://archivepublicdomain.com/files/2025/03/divina-comedia.pdf?t=405a4cb490ab1f2a39d8e1291a1d7a25a9e868f29480f06f8d65a66b6e3782e6",
+    "sinopse": "Obra clássica da categoria Literatura Internacional escrita por Dante Alighieri."
+  },
+  {
+    "id": "book-019",
+    "titulo": "Hamlet",
+    "autor": "William Shakespeare",
+    "ano": 1603,
+    "categoria": "Literatura Internacional",
+    "capa": "https://www.lpm.com.br/livros/imagens/hamlet_nova_9788525408532_hd.jpg",
+    "url": "https://www.ebooksbrasil.org/adobeebook/hamlet.pdf"
+  },
+  {
+    "id": "book-020",
+    "titulo": "O Jardim Secreto",
+    "autor": "Frances Hodgson Burnett",
+    "ano": 1911,
+    "categoria": "Literatura Internacional",
+    "capa": "https://m.media-amazon.com/images/I/91AqqCVtRsL._SL1500_.jpg",
+    "url": "https://mojo.org.br/wp-content/uploads/2021/03/0007_OJS_BILINGUE_PRINT.pdf",
+    "sinopse": "Obra clássica da categoria Literatura Internacional escrita por Frances Hodgson Burnett."
+  },
+  {
+    "id": "book-021",
+    "titulo": "Noções de Lógica",
+    "autor": "L. A. Nogueira",
+    "ano": 2015,
+    "categoria": "Tecnologia e Informática",
+    "capa": "/covers/nocoes-de-logica.svg",
+    "url": "https://archivepublicdomain.com/files/2024/06/Nocoes-de-Logica.pdf?t=d59e4b621d2fe6018f13da9646522c98727fc10dfc6673062acc71653c0f2acf"
+  },
+  {
+    "id": "book-022",
+    "titulo": "Bitcoin para Programadores",
+    "autor": "Satoshi Nakamoto",
+    "ano": 2008,
+    "categoria": "Tecnologia e Informática",
+    "capa": "/covers/bitcoin-para-programadores.svg",
+    "url": "https://itsrio.org/wp-content/uploads/2018/06/bitcoin-para-programadores.pdf"
+  },
+  {
+    "id": "book-023",
+    "titulo": "Robótica e Processos Formativos",
+    "autor": "José Silva",
+    "ano": 2018,
+    "categoria": "Tecnologia e Informática",
+    "capa": "/covers/robotica-e-processos-formativos.svg",
+    "url": "https://3c290742-53df-4d6f-b12f-6b135a606bc7.usrfiles.com/ugd/48d206_1b5275571b234d739eaa722ca244015c.pdf"
+  },
+  {
+    "id": "book-024",
+    "titulo": "Lógica de Programação para Iniciantes",
+    "autor": "Alan Turing",
+    "ano": 2020,
+    "categoria": "Tecnologia e Informática",
+    "capa": "/covers/logica-de-programacao-para-iniciantes.svg",
+    "url": "https://dicasdeprogramacao.com.br/download/ebook-logica-de-programacao-para-iniciantes.pdf"
+  },
+  {
+    "id": "book-025",
+    "titulo": "Cartilha de Segurança para Internet",
+    "autor": "CERT.br",
+    "ano": 2012,
+    "categoria": "Tecnologia e Informática",
+    "capa": "/covers/cartilha-de-seguranca-para-internet.svg",
+    "url": "https://cartilha.cert.br/livro/cartilha-seguranca-internet.pdf"
+  },
+  {
+    "id": "book-026",
+    "titulo": "Introdução à Criptografia",
+    "autor": "Bruce Schneier",
+    "ano": 2019,
+    "categoria": "Tecnologia e Informática",
+    "capa": "/covers/introducao-a-criptografia.svg",
+    "url": "https://canal.cecierj.edu.br/012016/8139aa5685a51bc51dad153266f7064d.pdf"
+  },
+  {
+    "id": "book-027",
+    "titulo": "Java Básico e Orientação a Objetos",
+    "autor": "James Gosling",
+    "ano": 2016,
+    "categoria": "Tecnologia e Informática",
+    "capa": "/covers/java-basico-e-orientacao-a-objetos.svg",
+    "url": "https://canal.cecierj.edu.br/012016/d7d8367338445d5a49b4d5a49f6ad2b9.pdf"
+  },
+  {
+    "id": "book-028",
+    "titulo": "Guia 500 Comandos Linux",
+    "autor": "Linus Torvalds",
+    "ano": 2021,
+    "categoria": "Tecnologia e Informática",
+    "capa": "/covers/guia-500-comandos-linux.svg",
+    "url": "https://www.linuxpro.com.br/dl/guia_500_comandos_Linux.pdf"
+  },
+  {
+    "id": "book-029",
+    "titulo": "Apostila Navegadores",
+    "autor": "Tim Berners-Lee",
+    "ano": 2015,
+    "categoria": "Tecnologia e Informática",
+    "capa": "/covers/apostila-navegadores.svg",
+    "url": "https://www.inf.unioeste.br/~usf/images/stories/apostila%20navegadores.pdf"
+  },
+  {
+    "id": "book-030",
+    "titulo": "Informática Avançada",
+    "autor": "Bill Gates",
+    "ano": 2017,
+    "categoria": "Tecnologia e Informática",
+    "capa": "/covers/informatica-avancada.svg",
+    "url": "https://domainpublic.wordpress.com/wp-content/uploads/2024/01/livro_informatica_avancada_compressed.pdf"
+  },
+  {
+    "id": "book-031",
+    "titulo": "Zoologia Invertebrados",
+    "autor": "Charles Darwin",
+    "ano": 2011,
+    "categoria": "Ciências",
+    "capa": "/covers/zoologia-invertebrados.svg",
+    "url": "https://archivepublicdomain.com/files/2026/04/zoologia-Invertebrados.pdf?t=d5415053c7e13864dbfd109af8349ec4feabedf72a1e319878f81bae6f06065f"
+  },
+  {
+    "id": "book-032",
+    "titulo": "Comportamento Felino",
+    "autor": "Konrad Lorenz",
+    "ano": 2014,
+    "categoria": "Ciências",
+    "capa": "/covers/comportamento-felino.svg",
+    "url": "https://archivepublicdomain.com/files/2026/04/comportamento-felino.pdf?t=41f48c98de19c5f58feb7fd1e27eff8ea1815c8dcffb06c7837554c43de8295c"
+  },
+  {
+    "id": "book-033",
+    "titulo": "Embriologia Humana",
+    "autor": "Ernst Haeckel",
+    "ano": 2013,
+    "categoria": "Ciências",
+    "capa": "/covers/embriologia-humana.svg",
+    "url": "https://domainpublic.wordpress.com/wp-content/uploads/2022/03/embriologia-humana-com.pdf"
+  },
+  {
+    "id": "book-034",
+    "titulo": "Cinesiologia",
+    "autor": "René Descartes",
+    "ano": 2015,
+    "categoria": "Ciências",
+    "capa": "/covers/cinesiologia.svg",
+    "url": "https://md.uninta.edu.br/geral/cinesiologia/pdf/Cinesiologia.pdf"
+  },
+  {
+    "id": "book-035",
+    "titulo": "Política Nacional da Mulher",
+    "autor": "Governo Federal",
+    "ano": 2013,
+    "categoria": "Ciências",
+    "capa": "/covers/politica-nacional-da-mulher.svg",
+    "url": "https://bvsms.saude.gov.br/bvs/publicacoes/politica_nacional_mulher_principios_diretrizes.pdf"
+  },
+  {
+    "id": "book-036",
+    "titulo": "Pequenos Vermes Invisíveis",
+    "autor": "Louis Pasteur",
+    "ano": 2016,
+    "categoria": "Ciências",
+    "capa": "/covers/pequenos-vermes-invisiveis.svg",
+    "url": "https://mojo.org.br/wp-content/uploads/2020/05/1006-Pequenos_vermes_invisiveis.pdf"
+  },
+  {
+    "id": "book-037",
+    "titulo": "Princípios de Química",
+    "autor": "Peter Atkins",
+    "ano": 2001,
+    "categoria": "Química",
+    "capa": "/covers/principios-de-quimica.svg",
+    "url": "https://archivepublicdomain.com/files/2025/08/principios-de-quimica.pdf?t=915d9105e947df56206a1860063a84186992b248119a48a6cc31f8b7b18f6f10"
+  },
+  {
+    "id": "book-038",
+    "titulo": "Geografia Física II",
+    "autor": "Alexander von Humboldt",
+    "ano": 2012,
+    "categoria": "Geografia",
+    "capa": "/covers/geografia-fisica-ii.svg",
+    "url": "https://domainpublic.wordpress.com/wp-content/uploads/2022/04/geografia-fisica-ii_compressed.pdf"
+  },
+  {
+    "id": "book-039",
+    "titulo": "Matemática Básica",
+    "autor": "Euclides",
+    "ano": 2010,
+    "categoria": "Matemática",
+    "capa": "/covers/matematica-basica.svg",
+    "url": "https://archivepublicdomain.com/files/2024/06/MATEMATICA-BASICA.pdf?t=c972c620f0911ee5d867c50ae7fc63d5156247e6bc0d073ae7e9e140ea4dbaef"
+  },
+  {
+    "id": "book-040",
+    "titulo": "Matemática Financeira",
+    "autor": "Luca Pacioli",
+    "ano": 2014,
+    "categoria": "Matemática",
+    "capa": "/covers/matematica-financeira.svg",
+    "url": "https://domainpublic.wordpress.com/wp-content/uploads/2022/07/financeira-medio_compressed.pdf"
+  },
+  {
+    "id": "book-041",
+    "titulo": "História da Matemática",
+    "autor": "Carl Boyer",
+    "ano": 2012,
+    "categoria": "Matemática",
+    "capa": "/covers/historia-da-matematica.svg",
+    "url": "https://canal.cecierj.edu.br/012016/05c131ec871d1773b04d1906425694f2.pdf"
+  },
+  {
+    "id": "book-042",
+    "titulo": "Construções Geométricas",
+    "autor": "Arquimedes",
+    "ano": 2013,
+    "categoria": "Matemática",
+    "capa": "/covers/construcoes-geometricas.svg",
+    "url": "https://domainpublic.wordpress.com/wp-content/uploads/2022/03/constucoes_geometricas-2ed.pdf"
+  },
+  {
+    "id": "book-043",
+    "titulo": "Análise Matemática",
+    "autor": "Isaac Newton",
+    "ano": 2015,
+    "categoria": "Matemática",
+    "capa": "/covers/analise-matematica.svg",
+    "url": "https://domainpublic.wordpress.com/wp-content/uploads/2022/03/livro-analise-matematica-.pdf"
+  }
+]

@@ -1,0 +1,60 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# .dockerignore — Exclui arquivos desnecessários da imagem Docker
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Dependências (serão reinstaladas no build)
+node_modules/
+*/node_modules/
+**/node_modules/
+
+# Builds locais
+dist/
+build/
+frontend/dist/
+backend/dist/
+
+# Banco de dados local
+database/
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Variáveis de ambiente
+.env
+.env.*
+backend/.env
+
+# Git
+.git/
+.gitignore
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Uploads temporários
+storage/temp/
+
+# Prisma migrations (gerenciadas pelo migrate deploy)
+# Mantém as migrations para o deploy
+# backend/prisma/migrations/
+
+# Scripts de deploy (não precisam estar na imagem)
+generate-deploy-zip.ps1
+generate-deploy-zip.sh
+deploy/
+*.zip
+
+# Documentação
+README.md
+*.md
+docs/

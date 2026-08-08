@@ -1,0 +1,62 @@
+[
+  {
+    "id": "tcc-01",
+    "titulo": "Artificial Intelligence in Education",
+    "autores": ["Alex Morgan", "Jordan Lee"],
+    "orientador": "Prof. David Miller",
+    "ano": 2026,
+    "curso": "Computer Science",
+    "categoria": "Tecnologia",
+    "url": "https://docs.google.com/document/d/1I715xk0xh46Lce4hVUK6VTnb4yo_-AK3/preview",
+    "resumo": "An exploratory study on the impact of modern AI and machine learning tools in K-12 education, evaluating pedagogical benefits and ethical challenges.",
+    "keywords": ["Artificial Intelligence", "Education", "Machine Learning", "Pedagogy"]
+  },
+  {
+    "id": "tcc-02",
+    "titulo": "Smart Attendance System",
+    "autores": ["Sarah Jenkins", "Michael Brown"],
+    "orientador": "Prof. David Miller",
+    "ano": 2026,
+    "curso": "Software Engineering",
+    "categoria": "Tecnologia",
+    "url": "https://docs.google.com/document/d/10gQPghwnMuCtQfn5UCJ2U2O08Fz3atU5/preview",
+    "resumo": "Implementation of an automated attendance tracking system using computer vision and IoT devices to streamline classroom administration.",
+    "keywords": ["Computer Vision", "IoT", "Automation", "Attendance"]
+  },
+  {
+    "id": "tcc-03",
+    "titulo": "IoT School Monitoring",
+    "autores": ["Sophia Davis"],
+    "orientador": "Prof. David Miller",
+    "ano": 2025,
+    "curso": "Hardware & Networks",
+    "categoria": "Tecnologia",
+    "url": "https://docs.google.com/document/d/1KEfP9mu6Z55YRtDRSEM2Z0u8DaiEiMBV/preview",
+    "resumo": "A low-cost environmental and energy monitoring network designed for educational campuses using ESP32 microcontrollers.",
+    "keywords": ["IoT", "ESP32", "Energy Monitoring", "Smart Campus"]
+  },
+  {
+    "id": "tcc-04",
+    "titulo": "Digital Library Platform",
+    "autores": ["Emma Watson", "Lucas Taylor"],
+    "orientador": "Prof. David Miller",
+    "ano": 2026,
+    "curso": "Computer Science",
+    "categoria": "Tecnologia",
+    "url": "https://docs.google.com/document/d/1ZAVuPJ2BMymtTcr49B9JOsmNrzrS9pV8/preview",
+    "resumo": "Architecture and design of a scalable open-source web application for managing school libraries, digital collections, and student reading progress.",
+    "keywords": ["Digital Library", "Web Development", "React", "Node.js", "Open Source"]
+  },
+  {
+    "id": "tcc-05",
+    "titulo": "Renewable Energy Management",
+    "autores": ["Oliver Wilson"],
+    "orientador": "Prof. David Miller",
+    "ano": 2025,
+    "curso": "Environmental Engineering",
+    "categoria": "Ciencias",
+    "url": "https://drive.google.com/file/d/1rDWgXFcqi8pSRL7r7j7FRyy0vRYFxJX8/preview",
+    "resumo": "Analysis of solar panel efficiency and smart grid integration in public educational facilities.",
+    "keywords": ["Renewable Energy", "Solar Power", "Sustainability", "Smart Grid"]
+  }
+]
