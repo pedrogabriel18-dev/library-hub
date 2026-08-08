@@ -1,117 +1,223 @@
-<div align="center">
-  <br />
-  <img src="public/assets/icones-biblioteca-sem-fundo.png" alt="LibraryHub Logo" width="120" />
-  <h1>LibraryHub</h1>
-  <p><strong>Plataforma Open Source de Gestão de Acervos Educacionais, Livros Digitais e Trabalhos Acadêmicos</strong></p>
+# Library Hub
 
-  <p>
-    <a href="#-licença"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT" /></a>
-    <a href="#-tecnologias"><img src="https://img.shields.io/badge/React-18-blue?logo=react" alt="React 18" /></a>
-    <a href="#-tecnologias"><img src="https://img.shields.io/badge/Node.js-20.x-green?logo=node.js" alt="Node.js 20" /></a>
-    <a href="#-tecnologias"><img src="https://img.shields.io/badge/TypeScript-5.x-blue?logo=typescript" alt="TypeScript 5" /></a>
-    <a href="#-tecnologias"><img src="https://img.shields.io/badge/Docker-Ready-blue?logo=docker" alt="Docker Ready" /></a>
-    <a href="#-acessibilidade"><img src="https://img.shields.io/badge/WCAG-AA%20Compliant-brightgreen" alt="WCAG AA Compliant" /></a>
-    <a href="#-status-do-projeto"><img src="https://img.shields.io/badge/Status-Active%20&%20Maintained-success" alt="Status Active" /></a>
-  </p>
+**Library Hub** is a modern full-stack web application designed to provide an organized, accessible, and efficient digital environment for managing and exploring books, academic works, reviews, and library-related information.
 
-  <p>
-    <a href="#-funcionalidades">Funcionalidades</a> •
-    <a href="#-guia-de-instalação">Instalação</a> •
-    <a href="#-documentação">Documentação</a> •
-    <a href="#-docker">Docker</a> •
-    <a href="#-contribuição">Contribuição</a> •
-    <a href="#-licença">Licença</a>
-  </p>
-  <br />
-</div>
+The project was developed as a software engineering and portfolio project, focusing on modular architecture, accessibility, security, performance, usability, and maintainability.
 
 ---
 
-## 📖 Sobre o Projeto
+## About the Project
 
-O **LibraryHub** é uma solução completa e moderna desenvolvida para transformar a experiência de gestão e acesso a bibliotecas escolares e acervos acadêmicos. Com uma interface envolvente, leitor imersivo de PDFs, controle administrativo por níveis de acesso (RBAC), histórico de leitura e recomendações dinâmicas por turma, o sistema oferece um ambiente digital de aprendizado acessível de qualquer dispositivo.
+Library Hub provides a centralized platform for managing and accessing digital library content.
 
----
+The platform includes:
 
-## ✨ Funcionalidades Principais
+* Digital book catalog
+* Academic repository
+* Search and filtering
+* User authentication
+* Role-Based Access Control (RBAC)
+* Favorites and reading history
+* Academic work organization
+* Reviews and moderation
+* Administrative management
+* Accessibility features
+* Responsive interface
+* Security and privacy practices
 
-### 📚 Gestão de Livros & Acervo Digital
-- **Catálogo Interativo**: Navegação por categorias, autores, ano de publicação e recomendações populares.
-- **Leitor Imersivo de PDFs**: Leitura em tela cheia com salvamento automático da última página lida e percentual de progresso.
-- **Favoritos & Histórico**: Armazenamento de livros salvos pelo leitor e registro do histórico recente de leitura.
-
-### 🎓 Trabalhos de Conclusão de Curso (TCCs)
-- **Repositório Acadêmico**: Indexação de TCCs escolares com busca por orientador, curso, palavras-chave e resumo.
-- **Streaming & Miniaturas**: Visualização de capas e leitura de monografias diretamente no navegador.
-
-### 💬 Resenhas & Moderação
-- **Avaliações com Estrelas**: Estudantes podem avaliar obras com notas de 1 a 5 estrelas e comentários.
-- **Painel de Moderação**: Bibliotecários e moderadores revisam, aprovam ou rejeitam avaliações antes da publicação.
-
-### 📊 Painel Administrativo & Analytics
-- **Gestão de Usuários**: Cadastro, edição de cargos (Aluno, Bibliotecária, Orientador, Desenvolvedor) e redefinição de senhas.
-- **Analytics por Turma**: Destaques de livros e TCCs mais consultados por séries e turmas escolares.
-
-### ♿ Acessibilidade & Experiência (UX)
-- **Modos de Tema**: Suporte a Tema Claro, Tema Escuro e Alto Contraste (WCAG AA Compliant).
-- **Navegação por Teclado**: Suporte total a anel de foco visível (`:focus-visible`) e atalhos (`Ctrl+K` para busca rápida).
-- **Notificações Toast**: Sistema de alertas visuais instantâneos.
+The system was designed to be adaptable to different educational environments and library use cases.
 
 ---
 
-## 🎨 Capturas de Tela
+## Main Features
 
-<div align="center">
-  <table width="100%">
-    <tr>
-      <td width="50%" align="center">
-        <img src="public/assets/background-pagina-inicial.jpg" alt="Página Inicial LibraryHub" width="100%" />
-        <br /><sub><b>Hero Banner & Acesso Rápido</b></sub>
-      </td>
-      <td width="50%" align="center">
-        <img src="public/assets/icones-biblioteca-sem-fundo.png" alt="Dashboard e Leitor" width="40%" />
-        <br /><sub><b>Leitor Imersivo de PDFs</b></sub>
-      </td>
-    </tr>
-  </table>
-</div>
+### Digital Library
+
+* Interactive book catalog
+* Search and filtering
+* Organization by categories and authors
+* Book metadata
+* Favorites
+* Reading history
+* Digital document access
+* Reading progress tracking
+
+### Academic Repository
+
+* Repository for academic works
+* Search by relevant metadata
+* Organization by course, author, advisor, year, and keywords
+* Automatically generated document covers
+* Optional manual cover replacement
+* Structured presentation of long academic titles and descriptions
+
+### Reviews and Moderation
+
+* User reviews
+* Rating system
+* Review management
+* Moderation capabilities for authorized users
+* Administrative review removal
+
+### Authentication and Access Control
+
+The application implements Role-Based Access Control (RBAC).
+
+Available roles include:
+
+* Student
+* Developer
+* Librarian
+* Advisor
+
+Each role has different permissions and access levels according to its responsibilities within the system.
+
+### Administration
+
+Administrative features include:
+
+* User management
+* Content management
+* Academic repository management
+* Review moderation
+* Permission management
+* System information
+* Administrative controls
+
+### Accessibility
+
+Accessibility was considered throughout the interface and component design.
+
+Implemented features include:
+
+* Light theme
+* Dark theme
+* High-contrast mode
+* Keyboard navigation
+* Visible focus states
+* Responsive layouts
+* Accessible form controls
+* Reduced-motion considerations
+* Semantic interface structure
+
+### Security
+
+Security was considered throughout the application architecture.
+
+The project includes mechanisms and practices involving:
+
+* Authentication
+* Authorization
+* Role-Based Access Control
+* Password hashing
+* JWT-based authentication
+* Input validation
+* Rate limiting
+* Security headers
+* Logging and auditing
+* Privacy-oriented logging practices
+
+The application also incorporates privacy considerations based on principles of Brazil's General Data Protection Law (LGPD).
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Technologies
 
 ### Frontend
-- **Framework**: [React 18](https://react.dev/) + [Vite](https://vitejs.dev/)
-- **Linguagem**: [TypeScript 5](https://www.typescriptlang.org/)
-- **Roteamento**: [React Router DOM v6](https://reactrouter.com/) (Code Splitting via `React.lazy`)
-- **Estilização**: Vanilla CSS (Design Tokens, Variáveis CSS, Glassmorphism)
-- **Ícones**: [Lucide React](https://lucide.dev/)
-- **Leitor de PDF**: [PDF.js](https://mozilla.github.io/pdfjs/)
+
+* React 18
+* Vite
+* TypeScript
+* React Router DOM
+* Vanilla CSS
+* CSS Variables and Design Tokens
+* Lucide React
+* PDF.js
 
 ### Backend
-- **Ambiente**: [Node.js 20](https://nodejs.org/)
-- **Framework REST**: [Express.js](https://expressjs.com/)
-- **ORM**: [Prisma ORM 5](https://www.prisma.io/)
-- **Banco de Dados**: [SQLite](https://www.sqlite.org/)
-- **Autenticação**: JSON Web Tokens (JWT) + bcryptjs
-- **Logs**: Winston Logger com suporte a anonimização de IPs (LGPD)
-- **Testes**: [Vitest](https://vitest.dev/) + Supertest (52 testes de integração)
+
+* Node.js 20
+* Express.js
+* Prisma ORM
+* SQLite
+* JSON Web Tokens (JWT)
+* bcryptjs
+* Winston
+
+### Testing
+
+* Vitest
+* Supertest
+* Unit testing
+* Integration testing
+
+### Development and Infrastructure
+
+* Git
+* GitHub
+* GitHub Desktop
+* Docker
+* Docker Compose
 
 ---
 
-## 🚀 Guia de Instalação
+## Architecture
 
-### Pré-requisitos
-- **Node.js**: versão `20.x` ou superior
-- **npm**: versão `10.x` ou superior
+Library Hub follows a modular full-stack architecture that separates the frontend, backend, data layer, and supporting services.
 
-### 1. Clonando o Repositório
-```bash
-git clone https://github.com/libraryhub/libraryhub.git
-cd libraryhub
+The architecture focuses on:
+
+* Maintainability
+* Scalability
+* Code reuse
+* Separation of responsibilities
+* Testing
+* Security
+
+Additional technical documentation is available in the [`docs/`](./docs/) directory.
+
+---
+
+## Project Structure
+
+```text
+library-hub/
+├── frontend/
+├── backend/
+├── docs/
+├── tests/
+├── .github/
+├── README.md
+├── CONTRIBUTING.md
+├── LICENSE
+└── ...
 ```
 
-### 2. Configurando o Backend
+The exact structure may evolve as the project continues to develop.
+
+---
+
+## Installation
+
+### Requirements
+
+* Node.js 20.x or newer
+* npm 10.x or newer
+* Git
+
+Docker is optional.
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/library-hub.git
+cd library-hub
+```
+
+Replace `YOUR_USERNAME` with the GitHub account that owns the repository.
+
+### Backend
+
 ```bash
 cd backend
 npm install
@@ -120,45 +226,478 @@ npx prisma db push
 npm run dev
 ```
 
-### 3. Configurando o Frontend
+Configure the required environment variables in `.env` according to `.env.example`.
+
+### Frontend
+
+Open another terminal:
+
 ```bash
-cd ../frontend
+cd frontend
 npm install
 npm run dev
 ```
 
-Acesse a aplicação em `http://localhost:5173`.
+The development server will provide the local address displayed in the terminal.
 
 ---
 
-## 🐳 Docker & Docker Compose
+## Docker
 
-Para executar toda a pilha de aplicação com contêineres:
+If Docker support is configured in the project, the application can also be started using:
 
 ```bash
-docker-compose up -d --build
+docker compose up -d --build
 ```
 
-A aplicação estará acessível em `http://localhost:3333`.
+The application will be available through the address configured by the Docker services.
 
 ---
 
-## 📚 Documentação Adicional
+## Documentation
 
-Acesse a documentação detalhada na pasta [`docs/`](./docs/):
-- 📐 [Arquitetura do Sistema](./docs/architecture.md)
-- 🔌 [Especificação da API REST](./docs/api.md)
-- 🗄️ [Modelo do Banco de Dados](./docs/database.md)
-- 🚀 [Guia de Deploy em Produção](./docs/deployment.md)
+Additional documentation is available in [`docs/`](./docs/).
 
----
+It may include:
 
-## 🤝 Contribuição
-
-Contribuições são super bem-vindas! Consulte nosso [Guia de Contribuição](./CONTRIBUTING.md) para entender o fluxo de Pull Requests e os padrões de commits.
+* [System Architecture](./docs/architecture.md)
+* [REST API](./docs/api.md)
+* [Database Model](./docs/database.md)
+* [Production Deployment](./docs/deployment.md)
 
 ---
 
-## 📜 Licença
+## Testing
 
-Este projeto é um software livre licenciado sob a [Licença MIT](./LICENSE).
+The project includes automated tests for important application components.
+
+The testing strategy includes:
+
+* Unit tests
+* Integration tests
+* API tests
+* Authentication tests
+* Application behavior validation
+
+The test suite may evolve as the project continues to receive improvements.
+
+---
+
+## AI-Assisted Development
+
+Library Hub was developed with the assistance of several AI-powered development tools.
+
+The primary tools used during development were:
+
+* Claude Code
+* Antigravity
+* ChatGPT
+
+They were used as development assistants for activities including:
+
+* Brainstorming
+* Architecture discussions
+* Code analysis
+* Debugging
+* Refactoring
+* Documentation
+* UX/UI exploration
+* Security reviews
+* Development planning
+
+AI tools were used as part of the development workflow and did not replace the need for implementation, testing, validation, and technical decision-making.
+
+---
+
+## Project Status
+
+**Version:** 1.0.0
+
+Library Hub is currently presented as a completed portfolio project.
+
+Future improvements may include additional features, security improvements, performance refinements, and further architectural evolution.
+
+---
+
+## Author
+
+**Pedro Gabriel**
+
+Beginner Full Stack Developer and Information Technology student.
+
+Interested in:
+
+* Full Stack Development
+* Software Engineering
+* Web Development
+* Artificial Intelligence
+* Automation
+* APIs
+* Databases
+* System Architecture
+* Cybersecurity
+* Cloud Computing
+
+**#acrediteemsimesmo #believeinyourself**
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+See the [`LICENSE`](./LICENSE) file for more information.
+
+---
+
+# Português
+
+# Library Hub
+
+O **Library Hub** é uma aplicação web full-stack moderna desenvolvida para oferecer um ambiente digital organizado, acessível e eficiente para gerenciamento e exploração de livros, trabalhos acadêmicos, resenhas e informações relacionadas a bibliotecas.
+
+O projeto foi desenvolvido como um projeto de engenharia de software e portfólio, com foco em arquitetura modular, acessibilidade, segurança, desempenho, usabilidade e manutenibilidade.
+
+---
+
+## Sobre o Projeto
+
+O Library Hub oferece uma plataforma centralizada para gerenciamento e acesso a conteúdos digitais de biblioteca.
+
+A plataforma possui recursos como:
+
+* Catálogo digital de livros
+* Repositório acadêmico
+* Pesquisa e filtragem
+* Autenticação de usuários
+* Controle de acesso baseado em funções (RBAC)
+* Favoritos e histórico de leitura
+* Organização de trabalhos acadêmicos
+* Resenhas e moderação
+* Gerenciamento administrativo
+* Recursos de acessibilidade
+* Interface responsiva
+* Práticas de segurança e privacidade
+
+O sistema foi projetado para ser adaptável a diferentes ambientes educacionais e casos de uso relacionados a bibliotecas.
+
+---
+
+## Principais Funcionalidades
+
+### Biblioteca Digital
+
+* Catálogo interativo de livros
+* Pesquisa e filtragem
+* Organização por categorias e autores
+* Metadados dos livros
+* Favoritos
+* Histórico de leitura
+* Acesso a documentos digitais
+* Registro de progresso de leitura
+
+### Repositório Acadêmico
+
+* Repositório para trabalhos acadêmicos
+* Pesquisa por metadados relevantes
+* Organização por curso, autor, orientador, ano e palavras-chave
+* Geração automática de capas para documentos
+* Possibilidade de substituição manual das capas
+* Apresentação estruturada de títulos e descrições extensas
+
+### Resenhas e Moderação
+
+* Resenhas de usuários
+* Sistema de avaliações
+* Gerenciamento de resenhas
+* Moderação por usuários autorizados
+* Exclusão administrativa de resenhas
+
+### Autenticação e Controle de Acesso
+
+A aplicação utiliza Controle de Acesso Baseado em Funções (RBAC).
+
+Os perfis disponíveis incluem:
+
+* Aluno
+* Desenvolvedor
+* Bibliotecária
+* Orientador
+
+Cada perfil possui diferentes permissões e níveis de acesso de acordo com suas responsabilidades dentro do sistema.
+
+### Administração
+
+Os recursos administrativos incluem:
+
+* Gerenciamento de usuários
+* Gerenciamento de conteúdos
+* Gerenciamento do repositório acadêmico
+* Moderação de resenhas
+* Gerenciamento de permissões
+* Informações do sistema
+* Controles administrativos
+
+### Acessibilidade
+
+A acessibilidade foi considerada durante o desenvolvimento da interface e dos componentes.
+
+Entre os recursos implementados estão:
+
+* Tema claro
+* Tema escuro
+* Alto contraste
+* Navegação por teclado
+* Estados de foco visíveis
+* Layouts responsivos
+* Controles de formulário acessíveis
+* Considerações para redução de movimento
+* Estrutura semântica da interface
+
+### Segurança
+
+A segurança foi considerada ao longo da arquitetura da aplicação.
+
+O projeto utiliza mecanismos e práticas relacionadas a:
+
+* Autenticação
+* Autorização
+* Controle de acesso baseado em funções
+* Hash de senhas
+* Autenticação baseada em JWT
+* Validação de entradas
+* Rate limiting
+* Headers de segurança
+* Logs e auditoria
+* Práticas de logging orientadas à privacidade
+
+A aplicação também incorpora considerações de privacidade baseadas nos princípios da Lei Geral de Proteção de Dados (LGPD).
+
+---
+
+## Tecnologias
+
+### Frontend
+
+* React 18
+* Vite
+* TypeScript
+* React Router DOM
+* Vanilla CSS
+* CSS Variables e Design Tokens
+* Lucide React
+* PDF.js
+
+### Backend
+
+* Node.js 20
+* Express.js
+* Prisma ORM
+* SQLite
+* JSON Web Tokens (JWT)
+* bcryptjs
+* Winston
+
+### Testes
+
+* Vitest
+* Supertest
+* Testes unitários
+* Testes de integração
+
+### Desenvolvimento e Infraestrutura
+
+* Git
+* GitHub
+* GitHub Desktop
+* Docker
+* Docker Compose
+
+---
+
+## Arquitetura
+
+O Library Hub utiliza uma arquitetura full-stack modular que separa frontend, backend, camada de dados e serviços de suporte.
+
+A arquitetura prioriza:
+
+* Manutenibilidade
+* Escalabilidade
+* Reutilização de código
+* Separação de responsabilidades
+* Testes
+* Segurança
+
+A documentação técnica adicional está disponível no diretório [`docs/`](./docs/).
+
+---
+
+## Estrutura do Projeto
+
+```text
+library-hub/
+├── frontend/
+├── backend/
+├── docs/
+├── tests/
+├── .github/
+├── README.md
+├── CONTRIBUTING.md
+├── LICENSE
+└── ...
+```
+
+A estrutura exata pode evoluir conforme o projeto continuar recebendo melhorias.
+
+---
+
+## Instalação
+
+### Requisitos
+
+* Node.js 20.x ou superior
+* npm 10.x ou superior
+* Git
+
+Docker é opcional.
+
+### Clonar o Repositório
+
+```bash
+git clone https://github.com/SEU_USUARIO/library-hub.git
+cd library-hub
+```
+
+Substitua `SEU_USUARIO` pelo usuário do GitHub responsável pelo repositório.
+
+### Backend
+
+```bash
+cd backend
+npm install
+cp .env.example .env
+npx prisma db push
+npm run dev
+```
+
+Configure as variáveis de ambiente necessárias no arquivo `.env`, utilizando `.env.example` como referência.
+
+### Frontend
+
+Abra outro terminal:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+O servidor de desenvolvimento fornecerá o endereço local exibido no terminal.
+
+---
+
+## Docker
+
+Caso o suporte a Docker esteja configurado no projeto, a aplicação também poderá ser iniciada utilizando:
+
+```bash
+docker compose up -d --build
+```
+
+A aplicação estará disponível no endereço configurado pelos serviços do Docker.
+
+---
+
+## Documentação
+
+A documentação adicional está disponível em [`docs/`](./docs/).
+
+Ela pode incluir:
+
+* [Arquitetura do Sistema](./docs/architecture.md)
+* [API REST](./docs/api.md)
+* [Modelo do Banco de Dados](./docs/database.md)
+* [Deploy em Produção](./docs/deployment.md)
+
+---
+
+## Testes
+
+O projeto possui testes automatizados para componentes importantes da aplicação.
+
+A estratégia de testes inclui:
+
+* Testes unitários
+* Testes de integração
+* Testes de API
+* Testes de autenticação
+* Validação do comportamento da aplicação
+
+A suíte de testes pode evoluir conforme o projeto receber novas melhorias.
+
+---
+
+## Desenvolvimento Assistido por IA
+
+O Library Hub foi desenvolvido com o auxílio de diversas ferramentas de inteligência artificial.
+
+As principais ferramentas utilizadas durante o desenvolvimento foram:
+
+* Claude Code
+* Antigravity
+* ChatGPT
+
+Essas ferramentas foram utilizadas como assistentes durante atividades como:
+
+* Brainstorming
+* Discussões de arquitetura
+* Análise de código
+* Debugging
+* Refatoração
+* Documentação
+* Exploração de UX/UI
+* Revisões de segurança
+* Planejamento do desenvolvimento
+
+As ferramentas de IA fizeram parte do fluxo de desenvolvimento, sem substituir a necessidade de implementação, testes, validação e tomada de decisões técnicas.
+
+---
+
+## Status do Projeto
+
+**Versão:** 1.0.0
+
+O Library Hub é apresentado atualmente como um projeto de portfólio concluído.
+
+Futuras melhorias podem incluir novos recursos, aprimoramentos de segurança, otimizações de desempenho e evolução da arquitetura.
+
+---
+
+## Autor
+
+**Pedro Gabriel**
+
+Desenvolvedor Full Stack iniciante e estudante de Tecnologia da Informação.
+
+Interesses:
+
+* Desenvolvimento Full Stack
+* Engenharia de Software
+* Desenvolvimento Web
+* Inteligência Artificial
+* Automação
+* APIs
+* Bancos de Dados
+* Arquitetura de Sistemas
+* Cibersegurança
+* Computação em Nuvem
+
+**#acrediteemsimesmo #believeinyourself**
+
+---
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT.
+
+Consulte o arquivo [`LICENSE`](./LICENSE) para obter mais informações.
