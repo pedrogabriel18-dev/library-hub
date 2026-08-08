@@ -1,39 +1,72 @@
-# Código de Conduta do Contribuinte — LibraryHub
+# Código de Conduta — Library Hub
 
 ## Nosso Compromisso
 
-Com o objetivo de promover um ambiente aberto e acolhedor, nós, como contribuidores e mantenedores, nos comprometemos a tornar a participação em nosso projeto e em nossa comunidade uma experiência livre de assédio para todos, independentemente de idade, tamanho corporal, deficiência, etnia, características sexuais, identidade e expressão de gênero, nível de experiência, educação, status socioeconômico, nacionalidade, aparência pessoal, raça, religião ou identidade e orientação sexual.
+O Library Hub busca manter um ambiente de desenvolvimento aberto, respeitoso e profissional para todas as pessoas que interagem com o projeto.
 
-## Nossos Padrões
+Contribuições, sugestões, críticas e discussões são bem-vindas quando realizadas de maneira construtiva e respeitosa, independentemente do nível de experiência, formação, origem, identidade ou características pessoais dos participantes.
 
-Exemplos de comportamentos que contribuem para criar um ambiente positivo incluem:
+## Comportamentos Esperados
 
-* Demonstrar empatia e gentileza com outras pessoas
-* Respeitar diferentes opiniões, pontos de vista e experiências
-* Dar e aceitar construtivamente feedbacks construtivos
-* Aceitar a responsabilidade e desculpar-se com aqueles afetados por nossos erros, aprendendo com a experiência
-* Focar no que é melhor não apenas para nós como indivíduos, mas para toda a comunidade
+São considerados comportamentos adequados:
 
-Exemplos de comportamento inaceitável incluem:
+* Tratar outras pessoas com respeito e cordialidade;
+* Demonstrar empatia durante discussões técnicas;
+* Respeitar diferentes opiniões e abordagens;
+* Fornecer e receber feedback de forma construtiva;
+* Manter discussões relacionadas ao projeto e aos seus objetivos;
+* Reconhecer erros e colaborar para sua resolução;
+* Contribuir para um ambiente profissional e produtivo.
 
-* O uso de linguagem ou imagens sexualizadas e atenção ou avanços sexuais indesejados
-* Trolling, comentários pejorativos ou depreciativos e ataques pessoais ou políticos
-* Assédio público ou privado
-* Publicação de informações privadas de terceiros sem permissão explícita
-* Outras condutas que possam ser razoavelmente consideradas inadequadas em um ambiente profissional
+## Comportamentos Inaceitáveis
 
-## Responsabilidades de Aplicação
+Não são permitidos comportamentos como:
 
-Os mantenedores do projeto são responsáveis por esclarecer os padrões de comportamento aceitável e tomarão medidas corretivas apropriadas em resposta a qualquer instância de comportamento inaceitável.
+* Assédio, intimidação ou discriminação;
+* Ataques pessoais ou comentários depreciativos;
+* Linguagem ofensiva direcionada a outras pessoas;
+* Publicação de informações pessoais ou privadas sem autorização;
+* Compartilhamento de conteúdo inadequado ou não relacionado ao projeto;
+* Trolling deliberado ou comportamento destinado a interromper discussões construtivas;
+* Qualquer comportamento que possa ser considerado incompatível com um ambiente profissional.
+
+## Responsabilidade
+
+O mantenedor do projeto é responsável por avaliar situações que violem este Código de Conduta e poderá tomar medidas apropriadas de acordo com a gravidade e as circunstâncias de cada caso.
+
+As medidas podem incluir:
+
+* Solicitação para interromper determinado comportamento;
+* Remoção de conteúdo inadequado;
+* Encerramento de discussões;
+* Restrição temporária ou permanente de contribuições;
+* Bloqueio de participantes em casos graves ou recorrentes.
 
 ## Escopo
 
-Este Código de Conduta aplica-se tanto nos espaços do projeto quanto nos espaços públicos quando um indivíduo está representando o projeto ou sua comunidade.
+Este Código de Conduta aplica-se aos espaços relacionados diretamente ao Library Hub, incluindo o repositório, issues, pull requests, discussões e demais canais utilizados para colaboração no projeto.
 
-## Aplicação
+Também se aplica quando uma pessoa estiver representando oficialmente o projeto em outros espaços.
 
-Instâncias de comportamento abusivo, de assédio ou inaceitável podem ser reportadas entrando em contato com a equipe de mantenedores através do e-mail oficial de segurança do repositório. Todas as queixas serão investigadas e resultará em uma resposta considerada necessária e apropriada às circunstâncias.
+## Comunicação de Problemas
+
+Situações relacionadas a assédio, comportamento inadequado, problemas de segurança ou outras violações podem ser comunicadas diretamente ao mantenedor do projeto por meio dos canais de contato disponibilizados no perfil ou no repositório.
+
+Ao realizar uma denúncia, recomenda-se fornecer informações suficientes para que a situação possa ser compreendida e analisada, como:
+
+* Descrição do ocorrido;
+* Data aproximada;
+* Local onde ocorreu;
+* Links ou evidências relevantes, quando disponíveis.
+
+As informações recebidas serão tratadas com discrição e avaliadas de acordo com a situação apresentada.
+
+## Contribuições
+
+Ao contribuir com o Library Hub, espera-se que participantes respeitem este Código de Conduta e contribuam de maneira colaborativa, técnica e profissional.
+
+O objetivo é manter o projeto como um espaço adequado para aprendizado, desenvolvimento de software e colaboração.
 
 ## Atribuição
 
-Este Código de Conduta é adaptado do [Contributor Covenant](https://www.contributor-covenant.org), versão 2.1.
+Este Código de Conduta foi inspirado no [Contributor Covenant](https://www.contributor-covenant.org/), versão 2.1, com adaptações para o contexto e a estrutura do projeto Library Hub.
